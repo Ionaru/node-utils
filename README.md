@@ -20,7 +20,12 @@ If `defaultValue` is undefined, the function will throw an error if the environm
 ```ts
 import { getEnvironmentVariable } from '@ionaru/node-utils';
 
+// Returns the contents of process.env.MY_ENV_VAR
 const envVar = getEnvironmentVariable('MY_ENV_VAR');
-const envVarError = getEnvironmentVariable('MY_ENV_VAR'); // Errors with ""
-const envVarWithDefault = getEnvironmentVariable('MY_ENV_VAR', 'default_value');
+
+// Errors with "Environment variable 'MISSING_ENV_VAR' is not set!".
+const envVarError = getEnvironmentVariable('MISSING_ENV_VAR');
+
+// Returns 'default_value'.
+const envVarWithDefault = getEnvironmentVariable('MISSING_ENV_VAR', 'default_value');
 ```
