@@ -1,5 +1,6 @@
 {
     "name": "@ionaru/node-utils",
+    "type": "module",
     "version": "0.0.0",
     "description": "My package node-utils",
     "main": "dist/index.js",
@@ -34,19 +35,19 @@
     "repository": "github:Ionaru/node-utils",
     "license": "MIT",
     "devDependencies": {
-        "@ionaru/eslint-config": "^5.1.0",
-        "@types/jest": "^27.0.2",
-        "@types/node": "^16.11.6",
-        "@typescript-eslint/eslint-plugin": "^5.2.0",
-        "eslint": "^7.32.0",
-        "eslint-plugin-import": "^2.25.2",
-        "eslint-plugin-jest": "^25.2.2",
+        "@ionaru/eslint-config": "^8.4.0",
+        "@types/jest": "^29.2.3",
+        "@types/node": "^18.11.10",
+        "@typescript-eslint/eslint-plugin": "^5.45.0",
+        "eslint": "^8.29.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-jest": "^27.1.6",
         "eslint-plugin-no-null": "^1.0.2",
         "eslint-plugin-prefer-arrow": "^1.2.3",
-        "eslint-plugin-sonarjs": "^0.10.0",
-        "eslint-plugin-unicorn": "^37.0.1",
-        "jest": "^27.3.1",
-        "ts-jest": "^27.0.7",
-        "typescript": "^4.4.4"
+        "eslint-plugin-sonarjs": "^0.16.0",
+        "eslint-plugin-unicorn": "^45.0.1",
+        "jest": "^29.3.1",
+        "ts-jest": "^29.0.3",
+        "typescript": "^4.9.3"
     }
 }
