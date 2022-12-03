@@ -1,3 +1,6 @@
+// eslint-disable-next-line @typescript-eslint/no-shadow
+import { describe, it, expect } from 'vitest';
+
 import { getEnvironmentVariable } from './get-environment-variable.js';
 
 describe('getEnvironmentVariable', () => {
