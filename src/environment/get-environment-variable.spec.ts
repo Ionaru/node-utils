@@ -1,4 +1,4 @@
-import { getEnvironmentVariable } from './get-environment-variable';
+import { getEnvironmentVariable } from './get-environment-variable.js';
 
 describe('getEnvironmentVariable', () => {
 

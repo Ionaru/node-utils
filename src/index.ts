@@ -1,1 +1,1 @@
-export { getEnvironmentVariable } from './environment/get-environment-variable';
+export { getEnvironmentVariable } from './environment/get-environment-variable.js';
